@@ -30,7 +30,7 @@ Well aware it doesnt scale well with screen size
 
 Github repo
 
-https://github.com/EtienneCdesgagne/Password-Generator/tree/main/Pass-word%20generator
+https://github.com/EtienneCdesgagne/Password-Generator
 
 Deployed app 
 
