@@ -19,7 +19,7 @@ NA
 
 ## Usage
 
-For anyone looking for a completely random secure password filling input criteria
+For anyone looking for a completely random secure password responding to custom user input criteria
 
 ## License 
 NA
