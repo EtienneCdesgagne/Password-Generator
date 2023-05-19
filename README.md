@@ -4,6 +4,8 @@
 
 Code to my random password generator. 
 
+![image](https://github.com/EtienneCdesgagne/Password-Generator/assets/127253511/c6a5603c-687d-447d-b6b5-ac662ec59ead)
+
 Containing: 
 A random password generator that allows users to specify if they would like to include 
     Uppercase letters
