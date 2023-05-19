@@ -3,33 +3,31 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function generatePassword() {  
-var userChoice = window.prompt("How many Characters would you like (8-132)");
-var passwordlength = parseInt(userChoice);
+var userChoice = prompt("How many Characters would you like (8-132)");
+var lengthAsNum = parseInt(length);
 
-if (Number.isNaN(passwordlength)) {
+
+if (Number.isNaN(lengthAsNum)) {
   alert("Must be a number");
   return;
 }
 
-var lowercaseletters = "abcdefghijklmnopqrstuvwxyz";
-var uppercaseletters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var numbers = "1234567890";
-var symbols = "!@#$%^&*()_+~`|}{[]\:;?><,./-=";
+var UppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var Lowercaseletters = "abcdefghijklmnopqrstuvwxyz";
+var Numbers = "1234567890";
+var Symbols = "!@#$%^&*()_+~`|}{[]\:;?><,./-=";
 
-var password= '';
+var randomnumber = Math.floor(Math.random()*combination.length)
+
+var combination = UppercaseLetters+Lowercaseletters+Numbers+Symbols
+
+var password= combination
 
 
-
-var combination = lowercaseletters + uppercaseletters + numbers + symbols
-for (var i = 0; i < passwordlength; i++) {
-  var randomnumber = Math.floor(Math.random()*combination.length)
-  password = password+combination[randomnumber]
-}
 // var password = generatePassword(); 
 var passwordText = document.querySelector("#password");
 
 passwordText.value = password;
-
 }
 
 // Add event listener to generate button
