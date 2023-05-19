@@ -34,8 +34,9 @@ Github repo
 
 https://github.com/EtienneCdesgagne/Password-Generator
 
-Deployed app 
+Deployed website
 
+https://etiennecdesgagne.github.io/Password-Generator/
 
 Link to starter code
 
