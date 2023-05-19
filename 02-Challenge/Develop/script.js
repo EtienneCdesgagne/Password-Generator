@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function generatePassword() {  
-var userChoice = prompt("How many Characters would you like (8-132)");
+var userChoice = prompt("How many Characters would you like (8-128)");
 var lengthAsNum = parseInt(length);
 
 
