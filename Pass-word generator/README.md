@@ -2,14 +2,13 @@
 
 ## Description
 
-Code to my random password generator. 
+Code to my personal portfolio. 
 
 Containing: 
-A random password generator that allows users to specify if they would like to include 
-    Uppercase letters
-    Lowercase letters
-    Numbers
-    Special characters
+    a navigation bar
+    a photo of myself
+    How to contact me
+    links to my previous work
 
 ## Installation 
 
@@ -17,7 +16,7 @@ NA
 
 ## Usage
 
-For anyone looking for a completely random secure password filling input criteria
+For potential clients or employers to get an idea of my abilities and competencies
 
 ## License 
 NA
@@ -35,3 +34,4 @@ https://github.com/EtienneCdesgagne/Challenge-2/tree/main
 Deployed app 
 
 https://etiennecdesgagne.github.io/Challenge-2/
+
